@@ -1,0 +1,23 @@
+ul{
+    background-color: darkblue;
+    color: lightblue;
+    width: 344px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    color: red;
+}
+.bg{
+    width: 340px;
+    height: 3000px;
+    background-image: url(download\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: 100px 100px;
+    background-attachment: fixed;
+}

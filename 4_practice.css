@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+
+.left{
+    background-color: red;
+    display: inline-block;
+    width: 50%;
+    height: 90vh;
+}
+
+.right{
+    background-color: green; 
+    display: inline-block;
+    width: 50%;
+    height: 90vh;
+}
+
+footer{
+    background-color: blue;
+    font-family: 'Poltawski Nowy', serif;
+    text-align: center;
+    color: aqua;
+    text-transform: uppercase;
+}
+
+.navbar ul li a{
+    color: yellow;
+    text-decoration: none;
+}
+.navbar ul li {
+    display: inline-block;
+    margin: 20px 20px;
+    font-size: 20px;
+}

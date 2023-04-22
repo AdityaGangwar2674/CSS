@@ -1,0 +1,25 @@
+h1{
+    color: red;
+}
+div{
+    background-color: antiquewhite;
+}
+#red{
+    background-color: red;
+    color: white;
+}
+.blue, h3{
+    background-color: blue;
+    color: white;
+    border: yellow solid 5px;
+}
+.pink{
+    background-color: pink;
+    color: red;
+    border: green solid 5px;
+}
+.black{
+    background-color: black;
+    color: aqua;
+    border:orange solid 5px;
+}
