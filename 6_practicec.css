@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 6px;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding: 0 43px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+nav {
+    display: inline;
+    padding: 0 43px;
+}
+
+.box1 {
+    height: 80vh;
+    width: 40vw;
+    background-color: violet;
+    float: left;
+}
+
+.box2 {
+    height: 80vh;
+    width: 40vw;
+    background-color: blueviolet;
+    float: right;
+}
+
+.cont{
+    padding:70px;
+}

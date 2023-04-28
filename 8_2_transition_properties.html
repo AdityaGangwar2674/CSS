@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="8_2_transition_properties.css">
+
+</head>
+
+<body>
+    <div class="cont">
+        <div class="box">
+            <img id="myimg" src="https://source.unsplash.com/user/erondu/260x120/?water" alt="">
+            <button id="btn">Toggle</button>
+        </div>
+    </div>
+    <script>
+        myimg.style.width = "146px"
+        myimg.style.height="50px"
+        btn.addEventListener("click", () => {
+            myimg.style.height="456px"
+            if (myimg.style.width === "546px") {
+                myimg.style.width = "146px"
+            }
+
+            else if (myimg.style.width === "146px") {
+                myimg.style.width = "546px"
+            }
+
+        })
+    </script>
+</body>
+
+</html>

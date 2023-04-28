@@ -1,0 +1,13 @@
+.cont{
+    background-color: red;
+    height: 34vh;
+}
+
+@media screen and  (max-width:800px){
+    body{
+        background-color: aqua;
+    }
+    .cont{
+        background-color: yellow;
+    }
+}

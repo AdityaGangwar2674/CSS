@@ -1,0 +1,24 @@
+.cont {
+    background-color: red;
+    height: 500px;
+}
+
+.box {
+    border: 2px solid black;
+    display: inline-block;
+
+}
+
+img {
+    width: 146px;
+    height: 456px;
+    /* transition-property: width;
+    transition-duration: 1s;
+    transition-timing-function: ease-in; */
+    /* transition-delay: 1s; */
+    transition: width 1s ease-in 1s, height 2s ease-in ;
+}
+
+img:hover {
+    width: 56px;
+}
